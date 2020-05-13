@@ -1,0 +1,28 @@
+program: vae_main_test.py
+method: bayes
+metric:
+  name: Test_Loss
+  goal: minimize
+parameters:
+  arch:
+    value: 'tcn'
+  lr:
+    values: [0.00005, 0.0001, 0.0005, 0.001, 0.005, 0.01, 0.05]
+  lr-sch:
+    values: ['none','exp','cos', 'plateau']
+  beta:
+    values: [0.1, 0.25, 0.5, 0.75, 1]
+  dropout:
+    values: [.2,.3,.4,.5]
+  units:
+    values: [16,32,48,64]
+  kernel-size:
+    values: [3,5,7]
+  layers:
+    values: [5,7,9]
+  cond:
+    value: 'T'
+  latent-dim:
+    values: [4,6,8,10]
+    
+#CUDA_VISIBLE_DEVICES=3 wandb agent q87gaqqb

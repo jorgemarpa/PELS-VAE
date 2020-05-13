@@ -1,0 +1,74 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.8.12
+    is_jupyter_run: false
+    python_version: 3.6.8
+architecture:
+  desc: null
+  value: tcn
+batch_size:
+  desc: null
+  value: 128
+beta_vae:
+  desc: null
+  value: '0.75'
+classes:
+  desc: null
+  value: all
+data:
+  desc: null
+  value: OGLE3
+dropout:
+  desc: null
+  value: 0.2
+epochs:
+  desc: null
+  value: 150
+feed_pp:
+  desc: null
+  value: F
+hidden_size:
+  desc: null
+  value: 48
+kernel_size:
+  desc: null
+  value: 5
+label_dim:
+  desc: null
+  value: 8
+latent_dim:
+  desc: null
+  value: 4
+latent_mode:
+  desc: null
+  value: repeat
+learning_rate:
+  desc: null
+  value: 0.001
+learning_rate_scheduler:
+  desc: null
+  value: cos
+n_feats:
+  desc: null
+  value: 3
+n_train_params:
+  desc: null
+  value: 300897
+num_layers:
+  desc: null
+  value: 9
+phys_params:
+  desc: null
+  value: ''
+physics_dim:
+  desc: null
+  value: 0
+sequence_lenght:
+  desc: null
+  value: 600
+transpose:
+  desc: null
+  value: false

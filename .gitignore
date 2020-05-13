@@ -1,0 +1,7 @@
+# ignore folders
+data/bkp/
+data/inter/OGLE3_x_GaiaDR2_to_validate.csv
+data/OGLE3/
+notebooks/bkps/
+.ipynb_checkpoints/
+.DS_Store
