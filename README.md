@@ -13,10 +13,10 @@ Light curves taken from [OGLE 3](http://www.astrouw.edu.pl/ogle/ogle3/OIII-CVS/)
 Training data is avalaible [here](https://zenodo.org/record/3820679#.XsW12RMzaRc).
 
 #### Samples
-![Light Curve samples](paper_figures/OGLE3_lcs_ex.pdf)
+![Light Curve samples](https://github.com/jorgemarpa/PELS-VAE/paper_figures/OGLE3_lcs_ex.pdf)
 
 #### Gaia DR2 parameters
-![Joint distribution](paper_figures/phys_params_joint.pdf)
+![Joint distribution](https://github.com/jorgemarpa/PELS-VAE/paper_figures/phys_params_joint.pdf)
 
 ## Usage
 
@@ -54,7 +54,7 @@ Architecture available are [TCN, LSTM, GRU]. The encoder-decoder contain a seque
 This train the models and generate a tensorboard event log (located in ./logs) of the training progress.
 
 #### Recontruction examples
-![Light Curve reconstruction](paper_figures/recon_lc_examples_YES.pdf)
+![Light Curve reconstruction](https://github.com/jorgemarpa/PELS-VAE/paper_figures/recon_lc_examples_YES.pdf)
 
 ## Sources and inspiration
 
