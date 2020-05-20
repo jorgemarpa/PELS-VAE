@@ -43,19 +43,13 @@ parser = argparse.ArgumentParser(description='Variational Auto Encoder (VAE)'+
 parser.add_argument('--dry-run', dest='dry_run', action='store_true',
                     default=False,
                     help='Load data and initialize models [False]')
-parser.add_argument('--machine', dest='machine', type=str, default='exalearn',
-                    help='were to is running (local, colab, [exalearn])')
+parser.add_argument('--machine', dest='machine', type=str, default='Jorges-MBP',
+                    help='were to is running (Jorges-MBP, colab, [exalearn])')
 
 parser.add_argument('--data', dest='data', type=str, default='OGLE3',
                     help='data used for training ([OGLE3], EROS2)')
-parser.add_argument('--seq-len', dest='seq_len', type=int, default=300,
-                    help='length of time series [300]')
 parser.add_argument('--use-err', dest='use_err', type=str, default='T',
                     help='use magnitude errors ([T],F)')
-parser.add_argument('--folded', dest='folded', type=str, default='T',
-                    help='folded light curves ([T],F)')
-parser.add_argument('--norm', dest='norm', type=str, default='T',
-                    help='normalize light curves ([T],F)')
 parser.add_argument('--cls', dest='cls', type=str, default='all',
                     help='drop or select ony one class '+
                     '([all],drop_"vartype",only_"vartype")')
@@ -112,10 +106,10 @@ elif data == 'OGLE3':
 else:
     seq_len = args.seq_len
 use_time = True
-use_err = True if args.use_err == 'T' else False
+use_err = True
 shuffle = True
-norm = True if args.norm == 'T' else False
-folded = True if args.folded == 'T' else False
+norm = True
+folded = True
 cls = args.cls
 
 cmt = args.comment

@@ -5,3 +5,5 @@ data/OGLE3/
 notebooks/bkps/
 .ipynb_checkpoints/
 .DS_Store
+src/__pycache__/
+wandb/debug.log
