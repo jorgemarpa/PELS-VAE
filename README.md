@@ -1,4 +1,7 @@
-# Astronomical Time Series
+# PELS-VAE: Physics-Enhanced Latent Space Variational Autoencoder
+This repository contains the code used for training and testing a conditioned Variational Autoencoder that generates physically informed light curves of periodic variable stars and accompanies the article [Martínez-Palomera et al. 2020](https://arxiv.org/abs/2005.07773).
+
+## Astronomical Time Series
 
 Light curves taken from [OGLE 3](http://www.astrouw.edu.pl/ogle/ogle3/OIII-CVS/), which contains the following variability classes: 
 * Eclipsing Binaries
