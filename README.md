@@ -54,7 +54,7 @@ Architecture available are [TCN, LSTM, GRU]. The encoder-decoder contain a seque
 This train the models and generate a tensorboard event log (located in ./logs) of the training progress.
 
 #### Recontruction examples
-![Light Curve reconstruction](https://github.com/jorgemarpa/PELS-VAE/paper_figures/recon_lc_examples_YES.png)
+![Light Curve reconstruction](https://github.com/jorgemarpa/PELS-VAE/blob/master/paper_figures/recon_lc_examples_YES.png)
 
 ## Sources and inspiration
 
