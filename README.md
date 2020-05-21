@@ -13,10 +13,10 @@ Light curves taken from [OGLE 3](http://www.astrouw.edu.pl/ogle/ogle3/OIII-CVS/)
 Training data is avalaible [here](https://zenodo.org/record/3820679#.XsW12RMzaRc).
 
 #### Samples
-![Light Curve samples](https://github.com/jorgemarpa/PELS-VAE/paper_figures/OGLE3_lcs_ex.pdf)
+![Light Curve samples](https://github.com/jorgemarpa/PELS-VAE/blob/master/paper_figures/OGLE3_lcs_ex.pdf)
 
 #### Gaia DR2 parameters
-![Joint distribution](https://github.com/jorgemarpa/PELS-VAE/paper_figures/phys_params_joint.pdf)
+![Joint distribution](https://github.com/jorgemarpa/PELS-VAE/blob/master/paper_figures/phys_params_joint.pdf)
 
 ## Usage
 
