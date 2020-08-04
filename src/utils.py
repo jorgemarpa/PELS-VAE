@@ -509,9 +509,9 @@ params['date'], params['ID'])
         mu = np.array(mu)
         std = np.exp(0.5 * np.array(logvar))
 
-        np.savetxt(fname_mu, mu)
-        np.savetxt(fname_std, std)
-        np.savetxt(fname_lbs, np.asarray(labels), fmt='%s')
+        #np.savetxt(fname_mu, mu)
+        #np.savetxt(fname_std, std)
+        #np.savetxt(fname_lbs, np.asarray(labels), fmt='%s')
         elap_time = datetime.datetime.now() - time_start
         print('Elapsed time  : %.2f s' % (elap_time.seconds))
         print('##'*20)

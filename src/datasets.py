@@ -156,7 +156,7 @@ class Astro_lightcurves(Dataset):
             if 'c' in phy_params or 'C' in phy_params:
                 self.phy_names.append('bp_rp')
             if 'a' in phy_params or 'A' in phy_params:
-                self.phy_names.append('phot_g_mean_abs_mag')
+                self.phy_names.append('abs_Gmag')
             if 'r' in phy_params or 'R' in phy_params:
                 self.phy_names.append('radius_val')
             if 'l' in phy_params or 'L' in phy_params:
